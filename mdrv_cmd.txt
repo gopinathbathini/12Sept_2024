@@ -1,0 +1,1 @@
+-usr "C:\Scripts\12Sept\12Sept.usr" -drv_log_file "C:\Scripts\12Sept\mdrv.log" -qt_result_dir "C:\Scripts\12Sept\result1" -extra_ext rtc_client -extra_ext vugdbg_ext -cci_elevel -msg_suffix_enable 0 -out "C:\Scripts\12Sept\" -correlation_files -param_non_working_days 6,7 -product_name vugen -pid 8880 -vugen_win 394958 -vugen_animate_delay 1 -param_log_timestamp_flag  0

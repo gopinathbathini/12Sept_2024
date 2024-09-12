@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Scripts\12Sept
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\scripts\12sept\\logfile.log
+c:\scripts\12sept\\combined_12Sept.c
+c:\scripts\12sept\\pre_cci.c

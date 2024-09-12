@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.demoblaze.com",
+                "infFile": "t1.inf",
+                "time": 1726162155416
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: config.json",
+                "infFile": "t2.inf",
+                "time": 1726162155736
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: entries",
+                "infFile": "t3.inf",
+                "time": 1726162156282
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: bycat",
+                "infFile": "t4.inf",
+                "time": 1726162156585
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: bycat_2",
+                "infFile": "t5.inf",
+                "time": 1726162156944
+            }
+        ],
+        "transactions": []
+    }
+]

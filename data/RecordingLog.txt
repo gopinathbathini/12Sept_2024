@@ -1,0 +1,477 @@
+[API Trapper      ( af0:34fc)] Recording in 32-bit mode: C:\Program Files (x86)\OpenText\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1358:4c80)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1358:4c80)] Load Network Traffic Analyzers:
+[Network Analyzer (1358:4c80)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1358:4c80)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1358:4c80)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1358:4c80)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1358:4c80)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1358:4c80)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1358:4c80)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1358:4c80)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1358:4c80)] Started proxy on port 8889 listening IP 192.168.29.135, 127.0.0.1, in synchronous mode
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21658
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21659
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21660
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21661
+[Proxy Recording  (1358:5234)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1358:5234)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1358:5234)] Received response of 297 header and 4527 body bytes from https://www.demoblaze.com:443/
+[Web Request      (1358:5234)] "GET https://www.demoblaze.com/"   
+[Network Analyzer (1358:5234)]   (Sid:  1) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid:  1) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid:  1) Server -> Client : 4527 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:5234)] Sent 4527 bytes to client @ 192.168.29.135:21658
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21664
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21665
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21666
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21667
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21668
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21669
+[Proxy Recording  (1358:2a80)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (1358:2a80)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21672
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21673
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21674
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21675
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21676
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21677
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21678
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21679
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21680
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21681
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21682
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21683
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21684
+[Proxy Recording  (1358:2a80)] Received response of 758 header and 568 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128
+[Web Request      (1358:2a80)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"   
+[Network Analyzer (1358:2a80)]   (Sid:  2) Client -> Server @ : 536 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2a80)]   (Sid:  2) Server -> Client : 775 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2a80)]   (Sid:  2) Server -> Client : 568 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2a80)] Sent 568 bytes to client @ 192.168.29.135:21659
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21685
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21686
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21687
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21688
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21689
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21690
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21691
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21692
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21693
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21694
+[Proxy Recording.Error (1358:2b90)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:2b90)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:3140)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:5234)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3140)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:3d28)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:31ac)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:48ec)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:413c)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:5234)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:3d28)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:31ac)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:48ec)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:413c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:4254)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:4254)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:4e08)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:4e08)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:3fb0)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3fb0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:2b90)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:30cc)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3140)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:5234)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3d28)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:31ac)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:48ec)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:413c)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:4254)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:2b90)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:30cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:3140)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:5234)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:2a80)] Exception is caught while trying to connect to https://www.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3d28)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:31ac)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:48ec)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:413c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:4254)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1358:2a80)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1358:4e08)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1358:4e08)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1358:30cc)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (1358:3140)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (1358:3140)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (1358:5234)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:L2azxVde0U7wRJAAG8chU9n6yZLhppeQhTfcamCARCY&cup2hreq=d9261afae6430372b22c75e4f67dc01e99ed1874f0b7eacf967ee3be969e5f63 ...
+[Proxy Recording  (1358:30cc)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (1358:4e08)] Received response of 296 header and 27687 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Web Request      (1358:4e08)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1358:4e08)]   (Sid:  3) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4e08)]   (Sid:  3) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4e08)]   (Sid:  3) Server -> Client : 27687 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4e08)] Sent 27687 bytes to client @ 192.168.29.135:21687
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21709
+[Proxy Recording  (1358:5234)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:L2azxVde0U7wRJAAG8chU9n6yZLhppeQhTfcamCARCY&cup2hreq=d9261afae6430372b22c75e4f67dc01e99ed1874f0b7eacf967ee3be969e5f63 ...
+[Proxy Recording  (1358:31ac)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1358:31ac)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1358:2668)] Received response of 269 header and 24663 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Proxy Recording  (1358:30cc)] Received response of 2928 header and 317 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Web Request      (1358:2668)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1358:2668)]   (Sid:  4) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid:  4) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid:  4) Server -> Client : 24663 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2668)] Sent 24663 bytes to client @ 192.168.29.135:21690
+[Network Analyzer (1358:30cc)]   (Sid:  5) Client -> Server @ : 4183 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:30cc)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1358:30cc)]   (Sid:  5) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid:  5) Server -> Client : 2917 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid:  5) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:30cc)] Sent 317 bytes to client @ 192.168.29.135:21692
+[Proxy Recording  (1358: ff4)] Received response of 296 header and 849 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Web Request      (1358: ff4)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1358: ff4)]   (Sid:  6) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid:  6) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid:  6) Server -> Client : 849 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358: ff4)] Sent 849 bytes to client @ 192.168.29.135:21685
+[Proxy Recording  (1358:3140)] Received response of 676 header and 363 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1
+[Web Request      (1358:3140)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1"   
+[Network Analyzer (1358:3140)]   (Sid:  7) Client -> Server @ : 1303 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1358:2b90)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Proxy Recording  (1358:2b90)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Network Analyzer (1358:3140)]   (Sid:  7) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:5234)] Received response of 1132 header and 417 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:L2azxVde0U7wRJAAG8chU9n6yZLhppeQhTfcamCARCY&cup2hreq=d9261afae6430372b22c75e4f67dc01e99ed1874f0b7eacf967ee3be969e5f63
+[Network Analyzer (1358:3140)]   (Sid:  7) Server -> Client : 363 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3140)] Sent 363 bytes to client @ 192.168.29.135:21693
+[Network Analyzer (1358:5234)]   (Sid:  8) Client -> Server @ : 1016 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:5234)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:L2azxVde0U7wRJAAG8chU9n6yZLhppeQhTfcamCARCY&cup2hreq=d9261afae6430372b22c75e4f67dc01e99ed1874f0b7eacf967ee3be969e5f63"   
+[Network Analyzer (1358:5234)]   (Sid:  8) Client -> Server @ : 3774 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid:  8) Server -> Client : 1121 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid:  8) Server -> Client : 417 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:5234)] Sent 417 bytes to client @ 192.168.29.135:21694
+[Proxy Recording  (1358:4dc4)] Received response of 310 header and 35128 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Web Request      (1358:4dc4)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1358:4dc4)]   (Sid:  9) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid:  9) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid:  9) Server -> Client : 35128 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4dc4)] Sent 35128 bytes to client @ 192.168.29.135:21688
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21715
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21717
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21718
+[Proxy Recording  (1358:2668)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1358:31ac)] Received response of 269 header and 27393 body bytes from https://www.demoblaze.com:443/Samsung1.jpg
+[Web Request      (1358:31ac)] "GET https://www.demoblaze.com/Samsung1.jpg"   
+[Network Analyzer (1358:31ac)]   (Sid: 10) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:31ac)]   (Sid: 10) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:31ac)]   (Sid: 10) Server -> Client : 27393 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:31ac)] Sent 27393 bytes to client @ 192.168.29.135:21709
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21719
+[Proxy Recording  (1358:340c)] Received response of 296 header and 529 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Web Request      (1358:340c)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1358:340c)]   (Sid: 11) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 11) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 11) Server -> Client : 529 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:340c)] Sent 529 bytes to client @ 192.168.29.135:21686
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21720
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21721
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21722
+[Proxy Recording  (1358:3fb0)] Received response of 296 header and 11784 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Web Request      (1358:3fb0)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1358:3fb0)]   (Sid: 12) Client -> Server @ : 580 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 12) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 12) Server -> Client : 11784 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3fb0)] Sent 11784 bytes to client @ 192.168.29.135:21689
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21723
+[Proxy Recording  (1358:2668)] Received response of 269 header and 33854 body bytes from https://www.demoblaze.com:443/nexus1.jpg
+[Web Request      (1358:2668)] "GET https://www.demoblaze.com/nexus1.jpg"   
+[Network Analyzer (1358:2668)]   (Sid: 13) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 13) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 13) Server -> Client : 33854 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2668)] Sent 33854 bytes to client @ 192.168.29.135:21715
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21724
+[Proxy Recording  (1358:2b90)] Received response of 443 header and 0 body bytes from https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt
+[Web Request      (1358:2b90)] "GET https://data.iana.org/TLD/tlds-alpha-by-domain.txt"   
+[Network Analyzer (1358:2b90)]   (Sid: 14) Client -> Server @ : 495 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2b90)]   (Sid: 14) Server -> Client : 470 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2b90)] Sent 0 bytes to client @ 192.168.29.135:21691
+[Proxy Recording  (1358:30cc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (1358:30cc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (1358:30cc)] Received response of 370 header and 2685 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Network Analyzer (1358:30cc)]   (Sid: 15) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:30cc)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1358:30cc)]   (Sid: 15) Client -> Server @ : 1148 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid: 15) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid: 15) Server -> Client : 2685 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:30cc)] Sent 2685 bytes to client @ 192.168.29.135:21717
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21727
+[Proxy Recording  (1358:4e08)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1358:4e08)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1358:3d28)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1358:4254)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1358:3d28)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1358:4254)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1358:413c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1358:413c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (1358: ff4)] Received response of 466 header and 401 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (1358: ff4)]   (Sid: 16) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Web Request      (1358: ff4)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (1358: ff4)]   (Sid: 16) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid: 16) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid: 16) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358: ff4)] Sent 401 bytes to client @ 192.168.29.135:21718
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21736
+[Proxy Recording  (1358:4e08)] Received response of 310 header and 8603 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Web Request      (1358:4e08)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1358:4e08)]   (Sid: 17) Client -> Server @ : 564 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4e08)]   (Sid: 17) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4e08)]   (Sid: 17) Server -> Client : 8603 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4e08)] Sent 8603 bytes to client @ 192.168.29.135:21723
+[Proxy Recording  (1358:3d28)] Received response of 310 header and 14823 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1358:3d28)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1358:3d28)]   (Sid: 18) Client -> Server @ : 570 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3d28)]   (Sid: 18) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3d28)]   (Sid: 18) Server -> Client : 14823 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3d28)] Sent 14823 bytes to client @ 192.168.29.135:21719
+[Proxy Recording.Error (1358:3fb0)] Exception is caught while trying to connect to https://config.edge.skype.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1358:3fb0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1358:4254)] Received response of 310 header and 158581 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Proxy Recording  (1358:4dc4)] Received response of 310 header and 71638 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1358:4254)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1358:4254)]   (Sid: 19) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4254)]   (Sid: 19) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4254)]   (Sid: 19) Server -> Client : 158581 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4254)] Sent 158581 bytes to client @ 192.168.29.135:21721
+[Proxy Recording  (1358:413c)] Received response of 273 header and 3979 body bytes from https://www.demoblaze.com:443/bm.png
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21737
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21738
+[Web Request      (1358:4dc4)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1358:4dc4)]   (Sid: 20) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid: 20) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid: 20) Server -> Client : 71638 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4dc4)] Sent 71638 bytes to client @ 192.168.29.135:21724
+[Proxy Recording  (1358:48ec)] Received response of 274 header and 34613 body bytes from https://www.demoblaze.com:443/iphone1.jpg
+[Web Request      (1358:413c)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1358:413c)]   (Sid: 21) Client -> Server @ : 589 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:413c)]   (Sid: 21) Server -> Client : 262 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:413c)]   (Sid: 21) Server -> Client : 3979 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:413c)] Sent 3979 bytes to client @ 192.168.29.135:21720
+[Web Request      (1358:48ec)] "GET https://www.demoblaze.com/iphone1.jpg"   
+[Network Analyzer (1358:48ec)]   (Sid: 22) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 22) Server -> Client : 263 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 22) Server -> Client : 34613 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:48ec)] Sent 34613 bytes to client @ 192.168.29.135:21722
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2 ...
+[Proxy Recording  (1358: ff4)] Trying to connect to https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2 ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (1358:2668)] Received response of 591 header and 935 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D
+[Network Analyzer (1358:2668)]   (Sid: 23) Client -> Server @ : 1084 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:2668)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"   
+[Network Analyzer (1358:2668)]   (Sid: 23) Client -> Server @ : 1043 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 23) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 23) Server -> Client : 935 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2668)] Sent 935 bytes to client @ 192.168.29.135:21736
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21743
+[Proxy Recording  (1358:340c)] Received response of 310 header and 2421 body bytes from https://www.demoblaze.com:443/js/index.js
+[Web Request      (1358:340c)] "GET https://www.demoblaze.com/js/index.js"   
+[Network Analyzer (1358:340c)]   (Sid: 24) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 24) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 24) Server -> Client : 2421 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:340c)] Sent 2421 bytes to client @ 192.168.29.135:21737
+[Proxy Recording  (1358: ff4)] Received response of 284 header and 182708 body bytes from https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21745
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21746
+[Web Request      (1358: ff4)] "GET https://www.demoblaze.com/css/fonts/Lato-Regular.woff2"   
+[Network Analyzer (1358: ff4)]   (Sid: 25) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid: 25) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358: ff4)]   (Sid: 25) Server -> Client : 182708 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358: ff4)] Sent 182708 bytes to client @ 192.168.29.135:21738
+[Proxy Recording  (1358:31ac)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (1358:31ac)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21748
+[Proxy Recording  (1358:4254)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1358:4254)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1358:4254)] Received response of 304 header and 84 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1358:4254)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1358:4254)]   (Sid: 26) Client -> Server @ : 607 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4254)]   (Sid: 26) Server -> Client : 293 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4254)]   (Sid: 26) Server -> Client : 84 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4254)] Sent 84 bytes to client @ 192.168.29.135:21745
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21749
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21750
+[Proxy Recording  (1358:31ac)] Received response of 591 header and 259 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D
+[Network Analyzer (1358:31ac)]   (Sid: 27) Client -> Server @ : 1060 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:31ac)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"   
+[Network Analyzer (1358:31ac)]   (Sid: 27) Client -> Server @ : 1338 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:31ac)]   (Sid: 27) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:31ac)]   (Sid: 27) Server -> Client : 259 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:31ac)] Sent 259 bytes to client @ 192.168.29.135:21743
+[Proxy Recording  (1358:2b90)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1358:2b90)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1358:2a80)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto ...
+[Proxy Recording  (1358:2a80)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto ...
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21754
+[Proxy Recording  (1358:2b90)] Received response of 312 header and 5214 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1358:2b90)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1358:2b90)]   (Sid: 28) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2b90)]   (Sid: 28) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2b90)]   (Sid: 28) Server -> Client : 5214 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2b90)] Sent 5214 bytes to client @ 192.168.29.135:21748
+[Proxy Recording  (1358:2a80)] Received response of 417 header and 129 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto
+[Web Request      (1358:2a80)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto"   
+[Network Analyzer (1358:2a80)]   (Sid: 29) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2a80)]   (Sid: 29) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2a80)]   (Sid: 29) Server -> Client : 129 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2a80)] Sent 129 bytes to client @ 192.168.29.135:21746
+[Proxy Recording  (1358:48ec)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1358:48ec)] Received response of 355 header and 1055 body bytes from https://api.demoblaze.com:443/entries
+[Web Request      (1358:48ec)] "GET https://api.demoblaze.com/entries"   
+[Network Analyzer (1358:48ec)]   (Sid: 30) Client -> Server @ : 583 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 30) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 30) Server -> Client : 1055 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:48ec)] Sent 1055 bytes to client @ 192.168.29.135:21749
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21757
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21758
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21759
+[Proxy Recording  (1358:3d28)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1358:3d28)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1358:3140)] Trying to connect to https://hls.demoblaze.com:443/index.m3u8 ...
+[Proxy Recording  (1358:413c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1358:3140)] Trying to connect to https://hls.demoblaze.com:443/index.m3u8 ...
+[Proxy Recording  (1358:413c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1358:3d28)] Received response of 270 header and 145227 body bytes from https://www.demoblaze.com:443/imgs/Lumia_1520.jpg
+[Web Request      (1358:3d28)] "GET https://www.demoblaze.com/imgs/Lumia_1520.jpg"   
+[Network Analyzer (1358:3d28)]   (Sid: 31) Client -> Server @ : 653 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3d28)]   (Sid: 31) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3d28)]   (Sid: 31) Server -> Client : 145227 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3d28)] Sent 145227 bytes to client @ 192.168.29.135:21758
+[Proxy Recording  (1358:340c)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21766
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21767
+[Proxy Recording  (1358:3140)] Received response of 904 header and 501 body bytes from https://hls.demoblaze.com:443/index.m3u8
+[Web Request      (1358:3140)] "GET https://hls.demoblaze.com/index.m3u8"   
+[Network Analyzer (1358:3140)]   (Sid: 32) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3140)]   (Sid: 32) Server -> Client : 921 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3140)]   (Sid: 32) Server -> Client : 501 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3140)] Sent 501 bytes to client @ 192.168.29.135:21750
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21770
+[Proxy Recording  (1358:2b90)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1358:2b90)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1358:5234)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1358:5234)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8 ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8 ...
+[Proxy Recording  (1358:48ec)] Received response of 906 header and 5302 body bytes from https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8
+[Web Request      (1358:48ec)] "GET https://hls.demoblaze.com/about_demo_hls_600k.m3u8"   
+[Network Analyzer (1358:48ec)]   (Sid: 33) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 33) Server -> Client : 923 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 33) Server -> Client : 5302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:48ec)] Sent 5302 bytes to client @ 192.168.29.135:21770
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21772
+[Proxy Recording  (1358:2668)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts ...
+[Proxy Recording  (1358:2668)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts ...
+[Proxy Recording  (1358:413c)] Received response of 270 header and 107446 body bytes from https://www.demoblaze.com:443/imgs/galaxy_s6.jpg
+[Web Request      (1358:413c)] "GET https://www.demoblaze.com/imgs/galaxy_s6.jpg"   
+[Network Analyzer (1358:413c)]   (Sid: 34) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:413c)]   (Sid: 34) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:413c)]   (Sid: 34) Server -> Client : 107446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:413c)] Sent 107446 bytes to client @ 192.168.29.135:21757
+[Proxy Recording  (1358:340c)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/bycat
+[Web Request      (1358:340c)] "OPTIONS https://api.demoblaze.com/bycat"   
+[Network Analyzer (1358:340c)]   (Sid: 35) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 35) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:340c)] Sent 0 bytes to client @ 192.168.29.135:21754
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21774
+[Proxy Recording  (1358:3fb0)] Received response of 270 header and 231810 body bytes from https://www.demoblaze.com:443/imgs/Nexus_6.jpg
+[Web Request      (1358:3fb0)] "GET https://www.demoblaze.com/imgs/Nexus_6.jpg"   
+[Network Analyzer (1358:3fb0)]   (Sid: 36) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 36) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 36) Server -> Client : 231810 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3fb0)] Sent 231810 bytes to client @ 192.168.29.135:21759
+[Proxy Recording  (1358:2b90)] Received response of 270 header and 200956 body bytes from https://www.demoblaze.com:443/imgs/iphone_6.jpg
+[Proxy Recording  (1358:5234)] Received response of 270 header and 143681 body bytes from https://www.demoblaze.com:443/imgs/xperia_z5.jpg
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1358:4dc4)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Web Request      (1358:2b90)] "GET https://www.demoblaze.com/imgs/iphone_6.jpg"   
+[Network Analyzer (1358:2b90)]   (Sid: 37) Client -> Server @ : 651 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2b90)]   (Sid: 37) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2668)] Received response of 908 header and 542192 body bytes from https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts
+[Network Analyzer (1358:2b90)]   (Sid: 37) Server -> Client : 200956 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2b90)] Sent 200956 bytes to client @ 192.168.29.135:21767
+[Web Request      (1358:5234)] "GET https://www.demoblaze.com/imgs/xperia_z5.jpg"   
+[Network Analyzer (1358:5234)]   (Sid: 38) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid: 38) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:5234)]   (Sid: 38) Server -> Client : 143681 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:5234)] Sent 143681 bytes to client @ 192.168.29.135:21766
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21776
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21777
+[Web Request      (1358:2668)] "GET https://hls.demoblaze.com/about_demo_hls_600k00000.ts"   
+[Network Analyzer (1358:2668)]   (Sid: 39) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 39) Server -> Client : 925 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:2668)]   (Sid: 39) Server -> Client : 542192 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:2668)] Sent 542192 bytes to client @ 192.168.29.135:21772
+[Proxy Recording  (1358:48ec)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1358:48ec)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1358:30cc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1358:30cc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1358:4dc4)] Received response of 355 header and 997 body bytes from https://api.demoblaze.com:443/bycat
+[Network Analyzer (1358:4dc4)]   (Sid: 40) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1358:4dc4)] "POST https://api.demoblaze.com/bycat"   
+[Network Analyzer (1358:4dc4)]   (Sid: 40) Client -> Server @ : 18 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid: 40) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:4dc4)]   (Sid: 40) Server -> Client : 997 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:4dc4)] Sent 997 bytes to client @ 192.168.29.135:21774
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21780
+[Proxy Recording  (1358:299c)] Client request from @ 192.168.29.135:21781
+[Proxy Recording  (1358:48ec)] Received response of 269 header and 96948 body bytes from https://www.demoblaze.com:443/imgs/HTC_M9.jpg
+[Web Request      (1358:48ec)] "GET https://www.demoblaze.com/imgs/HTC_M9.jpg"   
+[Network Analyzer (1358:48ec)]   (Sid: 41) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 41) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:48ec)]   (Sid: 41) Server -> Client : 96948 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:48ec)] Sent 96948 bytes to client @ 192.168.29.135:21776
+[Proxy Recording  (1358:30cc)] Received response of 269 header and 90485 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1358:30cc)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1358:30cc)]   (Sid: 42) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid: 42) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:30cc)]   (Sid: 42) Server -> Client : 90485 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:30cc)] Sent 90485 bytes to client @ 192.168.29.135:21777
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/imgs/macbook_air.jpg ...
+[Proxy Recording  (1358:340c)] Trying to connect to https://www.demoblaze.com:443/imgs/macbook_air.jpg ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/imgs/dell.jpg ...
+[Proxy Recording  (1358:3fb0)] Trying to connect to https://www.demoblaze.com:443/imgs/dell.jpg ...
+[Proxy Recording  (1358:3fb0)] Received response of 266 header and 60535 body bytes from https://www.demoblaze.com:443/imgs/dell.jpg
+[Web Request      (1358:3fb0)] "GET https://www.demoblaze.com/imgs/dell.jpg"   
+[Network Analyzer (1358:3fb0)]   (Sid: 43) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 43) Server -> Client : 255 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:3fb0)]   (Sid: 43) Server -> Client : 60535 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:3fb0)] Sent 60535 bytes to client @ 192.168.29.135:21781
+[Proxy Recording  (1358:340c)] Received response of 266 header and 74043 body bytes from https://www.demoblaze.com:443/imgs/macbook_air.jpg
+[Web Request      (1358:340c)] "GET https://www.demoblaze.com/imgs/macbook_air.jpg"   
+[Network Analyzer (1358:340c)]   (Sid: 44) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 44) Server -> Client : 255 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1358:340c)]   (Sid: 44) Server -> Client : 74043 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1358:340c)] Sent 74043 bytes to client @ 192.168.29.135:21780

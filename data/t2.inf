@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2_config.json
+URL1=https://www.demoblaze.com/config.json
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2_favicon.html
+URL2=https://www.demoblaze.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb
